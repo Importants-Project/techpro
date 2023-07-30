@@ -1,0 +1,20 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="24" fill="white"/>
+<mask id="mask0_703_970" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<circle cx="24" cy="24" r="24" fill="white"/>
+</mask>
+<g mask="url(#mask0_703_970)">
+<line x1="35.3536" y1="-25.6464" x2="-34.6464" y2="44.3536" stroke="#D4D4D4"/>
+<line x1="59.3536" y1="-7.64645" x2="-10.6464" y2="62.3536" stroke="#D4D4D4"/>
+<line x1="49.3536" y1="-25.6464" x2="-20.6464" y2="44.3536" stroke="#D4D4D4"/>
+<line x1="73.3536" y1="-7.64645" x2="3.35355" y2="62.3536" stroke="#D4D4D4"/>
+<line x1="49.3536" y1="-11.6464" x2="-20.6464" y2="58.3536" stroke="#D4D4D4"/>
+<line x1="73.3536" y1="6.35355" x2="3.35355" y2="76.3536" stroke="#D4D4D4"/>
+<line x1="40.3536" y1="-23.6464" x2="-29.6464" y2="46.3536" stroke="#D4D4D4"/>
+<line x1="64.3536" y1="-5.64645" x2="-5.64645" y2="64.3536" stroke="#D4D4D4"/>
+<line x1="54.3536" y1="-23.6464" x2="-15.6464" y2="46.3536" stroke="#D4D4D4"/>
+<line x1="78.3536" y1="-5.64645" x2="8.35355" y2="64.3536" stroke="#D4D4D4"/>
+<line x1="54.3536" y1="-9.64645" x2="-15.6464" y2="60.3536" stroke="#D4D4D4"/>
+<line x1="78.3536" y1="8.35355" x2="8.35355" y2="78.3536" stroke="#D4D4D4"/>
+</g>
+</svg>

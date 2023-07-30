@@ -1,0 +1,140 @@
+.footer {
+    position: relative;
+  &-info {
+    padding-top: 30px;
+    padding-bottom: 17px;
+    &_about {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+      overflow-wrap: break-word;
+      padding: 24px 0 0;
+      margin-bottom: 24px;
+      a {
+        color: $brown;
+        font-weight: 600;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &-recent {
+    a {
+        font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      line-height: 20px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 13px;
+      transition: all 0.3s ease;
+      color: #0a0a0a !important;
+
+      &:hover {
+        color: $primary !important;
+      }
+    }
+  }
+  &-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 0;
+    color: #0a0a0a;
+    padding-top: 30px;
+    font-weight: 700;
+    padding-bottom: 17px;
+    border-top: none;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.85);
+  }
+
+  &-links {
+    a {
+      i {
+        font-size: 8px;
+        color: $brown;
+      }
+
+      span {
+        // padding-left: 17px;
+        padding-left: 5px;
+        color: #0a0a0a;
+        transition: all 0.3s ease;
+      }
+
+      &:hover {
+        span {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  &-copyright {
+    font-size: 13px;
+    line-height: 15px;
+    color: #0a0a0a;
+    padding: 10px 0 14px;
+  }
+
+  .copyrightRow {
+    border-top: 1px solid rgba(204, 204, 204, 0.5);
+    padding: 22px 0 9px;
+  }
+
+  &-socials {
+    &_facebook {
+      width: 32px;
+      height: 32px;
+      border-radius: 32px;
+      background: $brown;
+      text-align: center;
+      line-height: 32px;
+      color: #f2f2f2;
+      font-size: 17px;
+      text-decoration: none !important;
+      transition: all 0.1s ease;
+
+      &:hover {
+        background-color: #3a5897;
+      }
+    }
+
+
+    &_instagram {
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+        background: $brown;
+        text-align: center;
+        line-height: 32px;
+        color: #f2f2f2;
+        font-size: 17px;
+        text-decoration: none !important;
+        transition: all 0.1s ease;
+  
+        &:hover {
+            background-image: linear-gradient(to right top, #feda75, #ffbb62, #ff9a5b, #fd785c, #f15665, #e94473, #db3582, #c82e92, #b738a6, #9f45b9, #7f50c9, #4f5bd5);
+        }
+      }
+
+
+
+      &_linkdin {
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
+        background: $brown;
+        text-align: center;
+        line-height: 32px;
+        color: #f2f2f2;
+        font-size: 17px;
+        text-decoration: none !important;
+        transition: all 0.1s ease;
+  
+        &:hover {
+          background-color: #0077b5;
+        }
+      }
+  }
+}

@@ -1,0 +1,36 @@
+$primary:#fd9b21;
+$secondery:#666666 ;
+$brown:#781610;
+$white:#fff;
+$grey:#bac1c6;
+$greyLight:#f2f2f2 ;
+$inherit:#777;
+
+.greyLightBg{
+  background-color: $white;
+}
+
+.primary-color{
+  color: $primary;
+  }
+
+
+  .secondery{
+    color: $secondery ;
+  }
+  .inheritColor{
+    color: $inherit;
+  }
+
+  .brownColor{
+    color: $brown;
+  }
+
+  .bg-brown{
+    background-color: $brown;
+    color: $white;
+  }
+  .standart-color{
+    color: #777;
+
+   }

@@ -1,0 +1,69 @@
+.lable {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.form {
+    font-size: 13px;
+    line-height: 18px;
+    color: #222222;
+    background: #cacaca;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 16px 30px 15px;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-sizing: border-box !important;
+    width: 100%;
+    display: block;
+    height: 49px;
+    &::placeholder {
+        color: #222222;
+        opacity: 1;
+    }
+    &:focus {
+        background-color: $white;
+        box-shadow: 0 0 0 2px #fd9b28;
+        outline-color: #fd9b28;
+        border-radius: 2px;
+    }
+}
+
+.submit {
+    position: relative;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    padding: 8px 49px 8px 27px;
+    color: $white;
+    border-radius: 0;
+    background: $brown;
+    border: 3px solid $brown;
+    display: inline-block;
+    line-height: 23px;
+    transition: all 0.3s ease;
+    i {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        left: auto;
+        font-size: 14px;
+        line-height: 14px;
+        color: $primary;
+        transition: all 0.3s ease;
+        transform: translate(0, -50%);
+    }
+
+    &:hover {
+        background-color: $primary;
+        border: 3px solid $primary;
+        color: $brown;
+
+        i {
+            color: $brown;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.contact {
+  &-info {
+    border-bottom: 3px solid #002e5b;
+    margin: 0 0 2rem 0;
+    p {
+      margin: 0 10px  15px 0;
+      span{
+        font-family: 'Open Sans', sans-serif;        color: #444444;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+      }
+    }
+  }
+
+  &-detail {
+
+    h4{
+      font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    letter-spacing: -0.04em;
+    line-height: 28px;
+    }
+  }
+}

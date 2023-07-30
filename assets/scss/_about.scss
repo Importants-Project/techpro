@@ -1,0 +1,17 @@
+.about {
+  &Title {
+    margin-bottom: 23px;
+    font-size: 28px;
+    color: $primary;
+    font-weight:700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 37px;
+    padding: 17px 0 0;
+
+    &::after {
+      @include afterTitle(left, 10px, 0);
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "/products": "/products",
+  "/products/:slug": "/products?slug=:slug",
+
+  "/news": "/news",
+  "/news/:slug": "/news?slug=:slug"
+}

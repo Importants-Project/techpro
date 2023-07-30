@@ -1,0 +1,28 @@
+.pagination {
+  cursor: pointer;
+  color: $brown;
+  display: block;
+  min-width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid transparent;
+  padding: 11px 5px 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;  color: $brown;
+margin:0 10px;
+
+  &:hover{
+    border: 2px solid $brown;
+  }
+}
+.current-page {
+  border: 2px solid $brown;
+
+}
+
+
+.page-numbers{
+padding: 1rem;
+}

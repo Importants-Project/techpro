@@ -1,0 +1,14 @@
+@mixin contanierWidth($width) {
+  width: $width;
+}
+
+@mixin afterTitle($text, $marginY, $marginX) {
+  content: "";
+  text-align: $text;
+  margin: $marginY $marginX;
+  display: block;
+  width: 35px;
+  height: 6px;
+  background: $primary;
+  border-radius: 3px;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,body{
+  font-family:  "Open Sans" , sans-serif;
+}
+.contanier {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.border-opcity {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.showDesktop{
+  display: block;
+}
+
+.showMob{
+  display: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,button,div{
+    font-family: 'Open Sans', sans-serif;}
+
+.clearfix{
+  clear: both;
+}
+
+
+a.nuxt-link-active {
+  color: #fff;
+ }
+
+ a.nuxt-link-exact-active {
+   color: $primary;
+ }
+
+
+ .__nuxt-error-page{
+    z-index: 1;
+ }
+
+ .error{
+    svg{
+        margin: auto;
+    }
+ }

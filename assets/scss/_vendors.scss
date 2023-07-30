@@ -1,0 +1,32 @@
+.vendors {
+  &-images {
+    max-width: 203px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 17%);
+    img {
+      height: auto;
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  &-info {
+    overflow: hidden;
+    h3 {
+      color: $brown;
+      transition: all 0.3s ease;
+      font-size: 20px;
+      font-weight: 700;
+      &:hover{color: $primary;}
+      margin: 0 0 1rem;
+    }
+
+    .description{
+      border-top: 1px solid #777777;
+      padding-top: 13px;
+    line-height: 22px;
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+    }
+  }
+}

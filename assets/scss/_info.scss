@@ -1,0 +1,40 @@
+.info{
+  background-image: url('../../assets/images/techprodc.jpg');
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+
+  &-box{
+    max-width: 540px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 4rem 4rem 3.5rem;
+    margin: 22px 0 0 auto;
+    height: 410px;
+    color: #777777;
+
+    img{
+      position: absolute;
+    top: 20px;
+    left: -25px;
+    }
+    // &::after{
+    //   content: "❝";
+    // line-height: 1;
+    // position: absolute;
+    // top: 20px;
+    // left: -40px;
+    // color: #fd9b28;
+    // font-size: 158px;
+    // }
+
+    p{
+      color: #222;
+      line-height: 30px;
+      font-weight: 300;
+      font-size: 16px;
+
+    }
+  }
+}
